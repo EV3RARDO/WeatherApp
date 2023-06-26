@@ -23,6 +23,7 @@ data class WeatherDomain(
         feelsLike = feelsLike,
         tempMin = tempMin,
         tempMax = tempMax,
-        humidity = humidity
+        humidity = humidity,
+        icon = icon
     )
 }

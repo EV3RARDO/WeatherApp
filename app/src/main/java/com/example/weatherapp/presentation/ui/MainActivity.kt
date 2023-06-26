@@ -19,6 +19,7 @@ import androidx.core.widget.doAfterTextChanged
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
+import coil.load
 import com.example.weatherapp.R
 import com.example.weatherapp.databinding.ActivityMainBinding
 import com.example.weatherapp.presentation.MainViewModel
@@ -80,6 +81,11 @@ class MainActivity : AppCompatActivity() {
             binding.tempMax.text = getString(R.string.temp_max, weather.tempMax)
             binding.humidity.text = getString(R.string.humidity, weather.humidity)
             binding.weatherContainer.visibility = View.VISIBLE
+
+
+            // TODO Find a better way to get icon url
+            val iconUrl = getString(R.string.icon_url, weather.icon)
+            binding.icon.load(iconUrl)
         }
     }
 

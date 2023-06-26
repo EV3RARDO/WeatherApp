@@ -99,10 +99,9 @@ class MainViewModel @Inject constructor(
         sharedPreferences.edit().putString(CITY, city).apply()
     }
 
-    private fun onException(e: DomainException) { // Handle Error Case
+    private fun onException(e: DomainException) { // TODO Handle Error Case
         Log.d("MainViewModel", "$e")
     }
-
 }
 
 

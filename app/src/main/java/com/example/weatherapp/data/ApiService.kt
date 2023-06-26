@@ -1,7 +1,6 @@
 package com.example.weatherapp.data
 
 import com.example.weatherapp.data.dto.WeatherDTO
-import kotlinx.coroutines.flow.Flow
 import retrofit2.http.GET
 import retrofit2.http.Query
 

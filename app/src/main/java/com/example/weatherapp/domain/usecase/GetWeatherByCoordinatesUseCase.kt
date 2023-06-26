@@ -5,7 +5,6 @@ import com.example.weatherapp.domain.coroutine.IoDispatcher
 import com.example.weatherapp.presentation.model.Weather
 import kotlinx.coroutines.CoroutineDispatcher
 import javax.inject.Inject
-
 class GetWeatherByCoordinatesUseCase @Inject constructor(
     private val weatherRepository: WeatherRepository,
     @IoDispatcher private val ioDispatcher: CoroutineDispatcher

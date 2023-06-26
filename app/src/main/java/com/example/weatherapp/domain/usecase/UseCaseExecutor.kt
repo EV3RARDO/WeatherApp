@@ -5,7 +5,6 @@ import com.example.weatherapp.domain.exception.UnknownException
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
-
 class UseCaseExecutor(private val coroutineScope: CoroutineScope) {
 
     fun <P, R> execute(
