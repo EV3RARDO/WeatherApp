@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+
+    <string name="temp">Temperature: %1$f</string>
+    <string name="feels_like">Feels like: %1$f</string>
+    <string name="temp_min">Temperature Min: %1$f</string>
+    <string name="temp_max">Temperature Max: %1$f</string>
+    <string name="humidity">Humidity: %1$d</string>
+    <string name="hint_city">Enter City (USA)</string>
+    <string name="location">Search Location</string>
+
+
+</resources>
